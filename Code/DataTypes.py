@@ -22,4 +22,4 @@ if number2:
 if number1 - number2 != 0 and not noneLiteral:
     print("And example executed!")
 
-print("Number1 is bigger") if number1>number2 else print("Number2 is bigger")
+print("Number1 is bigger") if number2>number1 else print("Number2 is bigger")
