@@ -3,7 +3,7 @@ student_list = []
 student_details = {}
 
 def add_student(name, id):
-    student_details ={"name: " + name, "id: " + id}
+    student_details = {"name": name, " id": id}
     student_list.append(student_details)
 
 
